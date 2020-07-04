@@ -1,0 +1,15 @@
+(lang dune 2.6)
+(name pcre)
+(version 7.4.3)
+(library
+ (name pcre)
+ (kind normal)
+ (archives (byte pcre.cma) (native pcre.cmxa))
+ (plugins (byte pcre.cma) (native pcre.cmxs))
+ (foreign_objects pcre_stubs.o)
+ (foreign_archives libpcre_stubs.a)
+ (native_archives pcre.a)
+ (main_module_name Pcre)
+ (modes byte native)
+ (modules
+  (singleton (name Pcre) (obj_name pcre) (visibility public) (impl) (intf))))

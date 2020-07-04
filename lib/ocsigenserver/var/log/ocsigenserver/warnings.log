@@ -1,0 +1,4 @@
+Jul  3 00:44:03: ocsigen:ocsipersist:dbm: Initializing ...
+Jul  3 00:44:03: ocsigen:ocsipersist:dbm: Launching a new Ocsidbm process: /home/opam/.opam/default/lib/ocsigenserver/extensions/ocsidbm on directory /home/opam/.opam/default/lib/ocsigenserver/var/lib/ocsigenserver.
+Jul  3 00:44:04: ocsigen:ocsipersist:dbm: ...Initialization complete
+Jul  3 00:44:04: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "2557b969132b"

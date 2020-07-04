@@ -1,0 +1,2280 @@
+"src/cryptokitBignum.ml" 20 1009 1013 "src/cryptokitBignum.ml" 20 1009 1017
+type(
+  Z.t
+)
+ident(
+  def zero "src/cryptokitBignum.ml" 21 1027 1027 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 20 1009 1020 "src/cryptokitBignum.ml" 20 1009 1026
+type(
+  Z.t
+)
+ident(
+  int_ref Z.zero "z.mli" 59 1614 1614 "z.mli" 59 1614 1625
+)
+"src/cryptokitBignum.ml" 21 1027 1031 "src/cryptokitBignum.ml" 21 1027 1034
+type(
+  Z.t
+)
+ident(
+  def one "src/cryptokitBignum.ml" 23 1044 1044 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 21 1027 1037 "src/cryptokitBignum.ml" 21 1027 1042
+type(
+  Z.t
+)
+ident(
+  int_ref Z.one "z.mli" 62 1648 1648 "z.mli" 62 1648 1658
+)
+"src/cryptokitBignum.ml" 23 1044 1048 "src/cryptokitBignum.ml" 23 1044 1054
+type(
+  int -> Z.t
+)
+ident(
+  def of_int "src/cryptokitBignum.ml" 25 1067 1067 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 23 1044 1057 "src/cryptokitBignum.ml" 23 1044 1065
+type(
+  int -> Z.t
+)
+ident(
+  int_ref Z.of_int "z.mli" 68 1721 1721 "z.mli" 68 1721 1774
+)
+"src/cryptokitBignum.ml" 25 1067 1071 "src/cryptokitBignum.ml" 25 1067 1078
+type(
+  Z.t -> Z.t -> int
+)
+ident(
+  def compare "src/cryptokitBignum.ml" 27 1092 1092 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 25 1067 1081 "src/cryptokitBignum.ml" 25 1067 1090
+type(
+  Z.t -> Z.t -> int
+)
+ident(
+  int_ref Z.compare "z.mli" 363 11759 11759 "z.mli" 363 11759 11819
+)
+"src/cryptokitBignum.ml" 27 1092 1096 "src/cryptokitBignum.ml" 27 1092 1099
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def add "src/cryptokitBignum.ml" 28 1108 1108 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 27 1092 1102 "src/cryptokitBignum.ml" 27 1092 1107
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.add "z.mli" 132 3753 3753 "z.mli" 132 3753 3805
+)
+"src/cryptokitBignum.ml" 28 1108 1112 "src/cryptokitBignum.ml" 28 1108 1115
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def sub "src/cryptokitBignum.ml" 29 1124 1124 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 28 1108 1118 "src/cryptokitBignum.ml" 28 1108 1123
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.sub "z.mli" 135 3824 3824 "z.mli" 135 3824 3876
+)
+"src/cryptokitBignum.ml" 29 1124 1128 "src/cryptokitBignum.ml" 29 1124 1132
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def mult "src/cryptokitBignum.ml" 30 1141 1141 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 29 1124 1135 "src/cryptokitBignum.ml" 29 1124 1140
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.mul "z.mli" 138 3898 3898 "z.mli" 138 3898 3950
+)
+"src/cryptokitBignum.ml" 30 1141 1145 "src/cryptokitBignum.ml" 30 1141 1149
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def mod_ "src/cryptokitBignum.ml" 32 1159 1159 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 30 1141 1152 "src/cryptokitBignum.ml" 30 1141 1157
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.rem "z.mli" 147 4194 4194 "z.mli" 147 4194 4246
+)
+"src/cryptokitBignum.ml" 32 1159 1163 "src/cryptokitBignum.ml" 32 1159 1177
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  def relative_prime "src/cryptokitBignum.ml" 35 1213 1213 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 32 1159 1178 "src/cryptokitBignum.ml" 32 1159 1179
+type(
+  Z.t
+)
+ident(
+  def a "src/cryptokitBignum.ml" 32 1159 1180 "src/cryptokitBignum.ml" 33 1184 1211
+)
+"src/cryptokitBignum.ml" 32 1159 1180 "src/cryptokitBignum.ml" 32 1159 1181
+type(
+  Z.t
+)
+ident(
+  def b "src/cryptokitBignum.ml" 33 1184 1186 "src/cryptokitBignum.ml" 33 1184 1211
+)
+"src/cryptokitBignum.ml" 33 1184 1186 "src/cryptokitBignum.ml" 33 1184 1193
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  int_ref Z.equal "z.mli" 371 12077 12077 "z.mli" 371 12077 12134
+)
+"src/cryptokitBignum.ml" 33 1184 1195 "src/cryptokitBignum.ml" 33 1184 1200
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.gcd "z.mli" 413 13133 13133 "z.mli" 413 13133 13171
+)
+"src/cryptokitBignum.ml" 33 1184 1201 "src/cryptokitBignum.ml" 33 1184 1202
+type(
+  Z.t
+)
+ident(
+  int_ref a "src/cryptokitBignum.ml" 32 1159 1178 "src/cryptokitBignum.ml" 32 1159 1179
+)
+"src/cryptokitBignum.ml" 33 1184 1203 "src/cryptokitBignum.ml" 33 1184 1204
+type(
+  Z.t
+)
+ident(
+  int_ref b "src/cryptokitBignum.ml" 32 1159 1180 "src/cryptokitBignum.ml" 32 1159 1181
+)
+"src/cryptokitBignum.ml" 33 1184 1194 "src/cryptokitBignum.ml" 33 1184 1205
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 33 1184 1206 "src/cryptokitBignum.ml" 33 1184 1211
+type(
+  Z.t
+)
+ident(
+  int_ref Z.one "z.mli" 62 1648 1648 "z.mli" 62 1648 1658
+)
+"src/cryptokitBignum.ml" 33 1184 1186 "src/cryptokitBignum.ml" 33 1184 1211
+type(
+  bool
+)
+"src/cryptokitBignum.ml" 35 1213 1217 "src/cryptokitBignum.ml" 35 1213 1226
+type(
+  Z.t -> Z.t -> Z.t -> Z.t
+)
+ident(
+  def mod_power "src/cryptokitBignum.ml" 37 1241 1241 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 35 1213 1229 "src/cryptokitBignum.ml" 35 1213 1239
+type(
+  Z.t -> Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.powm_sec "z.mli" 443 14234 14234 "z.mli" 443 14234 14287
+)
+"src/cryptokitBignum.ml" 37 1241 1245 "src/cryptokitBignum.ml" 37 1241 1252
+type(
+  Z.t -> Z.t -> Z.t -> Z.t
+)
+ident(
+  def sub_mod "src/cryptokitBignum.ml" 51 1625 1625 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 37 1241 1253 "src/cryptokitBignum.ml" 37 1241 1254
+type(
+  Z.t
+)
+ident(
+  def a "src/cryptokitBignum.ml" 37 1241 1255 "src/cryptokitBignum.ml" 39 1284 1323
+)
+"src/cryptokitBignum.ml" 37 1241 1255 "src/cryptokitBignum.ml" 37 1241 1256
+type(
+  Z.t
+)
+ident(
+  def b "src/cryptokitBignum.ml" 37 1241 1257 "src/cryptokitBignum.ml" 39 1284 1323
+)
+"src/cryptokitBignum.ml" 37 1241 1257 "src/cryptokitBignum.ml" 37 1241 1258
+type(
+  Z.t
+)
+ident(
+  def p "src/cryptokitBignum.ml" 38 1261 1263 "src/cryptokitBignum.ml" 39 1284 1323
+)
+"src/cryptokitBignum.ml" 38 1261 1267 "src/cryptokitBignum.ml" 38 1261 1268
+type(
+  Z.t
+)
+ident(
+  def d "src/cryptokitBignum.ml" 39 1284 1286 "src/cryptokitBignum.ml" 39 1284 1323
+)
+"src/cryptokitBignum.ml" 38 1261 1271 "src/cryptokitBignum.ml" 38 1261 1276
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.sub "z.mli" 135 3824 3824 "z.mli" 135 3824 3876
+)
+"src/cryptokitBignum.ml" 38 1261 1277 "src/cryptokitBignum.ml" 38 1261 1278
+type(
+  Z.t
+)
+ident(
+  int_ref a "src/cryptokitBignum.ml" 37 1241 1253 "src/cryptokitBignum.ml" 37 1241 1254
+)
+"src/cryptokitBignum.ml" 38 1261 1279 "src/cryptokitBignum.ml" 38 1261 1280
+type(
+  Z.t
+)
+ident(
+  int_ref b "src/cryptokitBignum.ml" 37 1241 1255 "src/cryptokitBignum.ml" 37 1241 1256
+)
+"src/cryptokitBignum.ml" 38 1261 1271 "src/cryptokitBignum.ml" 38 1261 1280
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 39 1284 1289 "src/cryptokitBignum.ml" 39 1284 1295
+type(
+  Z.t -> int
+)
+ident(
+  int_ref Z.sign "z.mli" 386 12384 12384 "z.mli" 386 12384 12433
+)
+"src/cryptokitBignum.ml" 39 1284 1296 "src/cryptokitBignum.ml" 39 1284 1297
+type(
+  Z.t
+)
+ident(
+  int_ref d "src/cryptokitBignum.ml" 38 1261 1267 "src/cryptokitBignum.ml" 38 1261 1268
+)
+"src/cryptokitBignum.ml" 39 1284 1289 "src/cryptokitBignum.ml" 39 1284 1297
+type(
+  int
+)
+"src/cryptokitBignum.ml" 39 1284 1298 "src/cryptokitBignum.ml" 39 1284 1299
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"src/cryptokitBignum.ml" 39 1284 1300 "src/cryptokitBignum.ml" 39 1284 1301
+type(
+  int
+)
+"src/cryptokitBignum.ml" 39 1284 1289 "src/cryptokitBignum.ml" 39 1284 1301
+type(
+  bool
+)
+"src/cryptokitBignum.ml" 39 1284 1307 "src/cryptokitBignum.ml" 39 1284 1312
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.add "z.mli" 132 3753 3753 "z.mli" 132 3753 3805
+)
+"src/cryptokitBignum.ml" 39 1284 1313 "src/cryptokitBignum.ml" 39 1284 1314
+type(
+  Z.t
+)
+ident(
+  int_ref d "src/cryptokitBignum.ml" 38 1261 1267 "src/cryptokitBignum.ml" 38 1261 1268
+)
+"src/cryptokitBignum.ml" 39 1284 1315 "src/cryptokitBignum.ml" 39 1284 1316
+type(
+  Z.t
+)
+ident(
+  int_ref p "src/cryptokitBignum.ml" 37 1241 1257 "src/cryptokitBignum.ml" 37 1241 1258
+)
+"src/cryptokitBignum.ml" 39 1284 1307 "src/cryptokitBignum.ml" 39 1284 1316
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 39 1284 1322 "src/cryptokitBignum.ml" 39 1284 1323
+type(
+  Z.t
+)
+ident(
+  int_ref d "src/cryptokitBignum.ml" 38 1261 1267 "src/cryptokitBignum.ml" 38 1261 1268
+)
+"src/cryptokitBignum.ml" 39 1284 1286 "src/cryptokitBignum.ml" 39 1284 1323
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 38 1261 1263 "src/cryptokitBignum.ml" 39 1284 1323
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 51 1625 1629 "src/cryptokitBignum.ml" 51 1625 1642
+type(
+  Z.t -> Z.t -> Z.t -> Z.t -> Z.t -> Z.t -> Z.t
+)
+ident(
+  def mod_power_CRT "src/cryptokitBignum.ml" 64 2131 2131 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 51 1625 1643 "src/cryptokitBignum.ml" 51 1625 1644
+type(
+  Z.t
+)
+ident(
+  def a "src/cryptokitBignum.ml" 51 1625 1645 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 51 1625 1645 "src/cryptokitBignum.ml" 51 1625 1646
+type(
+  Z.t
+)
+ident(
+  def p "src/cryptokitBignum.ml" 51 1625 1647 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 51 1625 1647 "src/cryptokitBignum.ml" 51 1625 1648
+type(
+  Z.t
+)
+ident(
+  def q "src/cryptokitBignum.ml" 51 1625 1649 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 51 1625 1649 "src/cryptokitBignum.ml" 51 1625 1651
+type(
+  Z.t
+)
+ident(
+  def dp "src/cryptokitBignum.ml" 51 1625 1652 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 51 1625 1652 "src/cryptokitBignum.ml" 51 1625 1654
+type(
+  Z.t
+)
+ident(
+  def dq "src/cryptokitBignum.ml" 51 1625 1655 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 51 1625 1655 "src/cryptokitBignum.ml" 51 1625 1659
+type(
+  Z.t
+)
+ident(
+  def qinv "src/cryptokitBignum.ml" 52 1662 1664 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 52 1662 1668 "src/cryptokitBignum.ml" 52 1662 1673
+type(
+  Z.t
+)
+ident(
+  def amodp "src/cryptokitBignum.ml" 53 1711 1713 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 52 1662 1676 "src/cryptokitBignum.ml" 52 1662 1681
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.rem "z.mli" 147 4194 4194 "z.mli" 147 4194 4246
+)
+"src/cryptokitBignum.ml" 52 1662 1682 "src/cryptokitBignum.ml" 52 1662 1683
+type(
+  Z.t
+)
+ident(
+  int_ref a "src/cryptokitBignum.ml" 51 1625 1643 "src/cryptokitBignum.ml" 51 1625 1644
+)
+"src/cryptokitBignum.ml" 52 1662 1684 "src/cryptokitBignum.ml" 52 1662 1685
+type(
+  Z.t
+)
+ident(
+  int_ref p "src/cryptokitBignum.ml" 51 1625 1645 "src/cryptokitBignum.ml" 51 1625 1646
+)
+"src/cryptokitBignum.ml" 52 1662 1676 "src/cryptokitBignum.ml" 52 1662 1685
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 52 1662 1690 "src/cryptokitBignum.ml" 52 1662 1695
+type(
+  Z.t
+)
+ident(
+  def amodq "src/cryptokitBignum.ml" 53 1711 1713 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 52 1662 1698 "src/cryptokitBignum.ml" 52 1662 1703
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.rem "z.mli" 147 4194 4194 "z.mli" 147 4194 4246
+)
+"src/cryptokitBignum.ml" 52 1662 1704 "src/cryptokitBignum.ml" 52 1662 1705
+type(
+  Z.t
+)
+ident(
+  int_ref a "src/cryptokitBignum.ml" 51 1625 1643 "src/cryptokitBignum.ml" 51 1625 1644
+)
+"src/cryptokitBignum.ml" 52 1662 1706 "src/cryptokitBignum.ml" 52 1662 1707
+type(
+  Z.t
+)
+ident(
+  int_ref q "src/cryptokitBignum.ml" 51 1625 1647 "src/cryptokitBignum.ml" 51 1625 1648
+)
+"src/cryptokitBignum.ml" 52 1662 1698 "src/cryptokitBignum.ml" 52 1662 1707
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 53 1711 1717 "src/cryptokitBignum.ml" 53 1711 1719
+type(
+  Z.t
+)
+ident(
+  def mp "src/cryptokitBignum.ml" 54 1776 1778 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 53 1711 1722 "src/cryptokitBignum.ml" 53 1711 1731
+type(
+  Z.t -> Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref mod_power "src/cryptokitBignum.ml" 35 1213 1217 "src/cryptokitBignum.ml" 35 1213 1226
+)
+"src/cryptokitBignum.ml" 53 1711 1732 "src/cryptokitBignum.ml" 53 1711 1737
+type(
+  Z.t
+)
+ident(
+  int_ref amodp "src/cryptokitBignum.ml" 52 1662 1668 "src/cryptokitBignum.ml" 52 1662 1673
+)
+"src/cryptokitBignum.ml" 53 1711 1738 "src/cryptokitBignum.ml" 53 1711 1740
+type(
+  Z.t
+)
+ident(
+  int_ref dp "src/cryptokitBignum.ml" 51 1625 1649 "src/cryptokitBignum.ml" 51 1625 1651
+)
+"src/cryptokitBignum.ml" 53 1711 1741 "src/cryptokitBignum.ml" 53 1711 1742
+type(
+  Z.t
+)
+ident(
+  int_ref p "src/cryptokitBignum.ml" 51 1625 1645 "src/cryptokitBignum.ml" 51 1625 1646
+)
+"src/cryptokitBignum.ml" 53 1711 1722 "src/cryptokitBignum.ml" 53 1711 1742
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 53 1711 1747 "src/cryptokitBignum.ml" 53 1711 1749
+type(
+  Z.t
+)
+ident(
+  def mq "src/cryptokitBignum.ml" 54 1776 1778 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 53 1711 1752 "src/cryptokitBignum.ml" 53 1711 1761
+type(
+  Z.t -> Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref mod_power "src/cryptokitBignum.ml" 35 1213 1217 "src/cryptokitBignum.ml" 35 1213 1226
+)
+"src/cryptokitBignum.ml" 53 1711 1762 "src/cryptokitBignum.ml" 53 1711 1767
+type(
+  Z.t
+)
+ident(
+  int_ref amodq "src/cryptokitBignum.ml" 52 1662 1690 "src/cryptokitBignum.ml" 52 1662 1695
+)
+"src/cryptokitBignum.ml" 53 1711 1768 "src/cryptokitBignum.ml" 53 1711 1770
+type(
+  Z.t
+)
+ident(
+  int_ref dq "src/cryptokitBignum.ml" 51 1625 1652 "src/cryptokitBignum.ml" 51 1625 1654
+)
+"src/cryptokitBignum.ml" 53 1711 1771 "src/cryptokitBignum.ml" 53 1711 1772
+type(
+  Z.t
+)
+ident(
+  int_ref q "src/cryptokitBignum.ml" 51 1625 1647 "src/cryptokitBignum.ml" 51 1625 1648
+)
+"src/cryptokitBignum.ml" 53 1711 1752 "src/cryptokitBignum.ml" 53 1711 1772
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 54 1776 1782 "src/cryptokitBignum.ml" 54 1776 1786
+type(
+  Z.t
+)
+ident(
+  def diff "src/cryptokitBignum.ml" 55 1808 1810 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 54 1776 1789 "src/cryptokitBignum.ml" 54 1776 1796
+type(
+  Z.t -> Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref sub_mod "src/cryptokitBignum.ml" 37 1241 1245 "src/cryptokitBignum.ml" 37 1241 1252
+)
+"src/cryptokitBignum.ml" 54 1776 1797 "src/cryptokitBignum.ml" 54 1776 1799
+type(
+  Z.t
+)
+ident(
+  int_ref mp "src/cryptokitBignum.ml" 53 1711 1717 "src/cryptokitBignum.ml" 53 1711 1719
+)
+"src/cryptokitBignum.ml" 54 1776 1800 "src/cryptokitBignum.ml" 54 1776 1802
+type(
+  Z.t
+)
+ident(
+  int_ref mq "src/cryptokitBignum.ml" 53 1711 1747 "src/cryptokitBignum.ml" 53 1711 1749
+)
+"src/cryptokitBignum.ml" 54 1776 1803 "src/cryptokitBignum.ml" 54 1776 1804
+type(
+  Z.t
+)
+ident(
+  int_ref p "src/cryptokitBignum.ml" 51 1625 1645 "src/cryptokitBignum.ml" 51 1625 1646
+)
+"src/cryptokitBignum.ml" 54 1776 1789 "src/cryptokitBignum.ml" 54 1776 1804
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 55 1808 1814 "src/cryptokitBignum.ml" 55 1808 1823
+type(
+  Z.t
+)
+ident(
+  def diff_qinv "src/cryptokitBignum.ml" 56 1845 1847 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 55 1808 1826 "src/cryptokitBignum.ml" 55 1808 1831
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.mul "z.mli" 138 3898 3898 "z.mli" 138 3898 3950
+)
+"src/cryptokitBignum.ml" 55 1808 1832 "src/cryptokitBignum.ml" 55 1808 1836
+type(
+  Z.t
+)
+ident(
+  int_ref diff "src/cryptokitBignum.ml" 54 1776 1782 "src/cryptokitBignum.ml" 54 1776 1786
+)
+"src/cryptokitBignum.ml" 55 1808 1837 "src/cryptokitBignum.ml" 55 1808 1841
+type(
+  Z.t
+)
+ident(
+  int_ref qinv "src/cryptokitBignum.ml" 51 1625 1655 "src/cryptokitBignum.ml" 51 1625 1659
+)
+"src/cryptokitBignum.ml" 55 1808 1826 "src/cryptokitBignum.ml" 55 1808 1841
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 56 1845 1851 "src/cryptokitBignum.ml" 56 1845 1866
+type(
+  Z.t
+)
+ident(
+  def diff_qinv_mod_p "src/cryptokitBignum.ml" 57 1890 1892 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 56 1845 1869 "src/cryptokitBignum.ml" 56 1845 1874
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.rem "z.mli" 147 4194 4194 "z.mli" 147 4194 4246
+)
+"src/cryptokitBignum.ml" 56 1845 1875 "src/cryptokitBignum.ml" 56 1845 1884
+type(
+  Z.t
+)
+ident(
+  int_ref diff_qinv "src/cryptokitBignum.ml" 55 1808 1814 "src/cryptokitBignum.ml" 55 1808 1823
+)
+"src/cryptokitBignum.ml" 56 1845 1885 "src/cryptokitBignum.ml" 56 1845 1886
+type(
+  Z.t
+)
+ident(
+  int_ref p "src/cryptokitBignum.ml" 51 1625 1645 "src/cryptokitBignum.ml" 51 1625 1646
+)
+"src/cryptokitBignum.ml" 56 1845 1869 "src/cryptokitBignum.ml" 56 1845 1886
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 57 1890 1896 "src/cryptokitBignum.ml" 57 1890 1899
+type(
+  Z.t
+)
+ident(
+  def res "src/cryptokitBignum.ml" 58 1940 1942 "src/cryptokitBignum.ml" 62 2124 2129
+)
+"src/cryptokitBignum.ml" 57 1890 1905 "src/cryptokitBignum.ml" 57 1890 1908
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.add "z.mli" 132 3753 3753 "z.mli" 132 3753 3805
+)
+"src/cryptokitBignum.ml" 57 1890 1910 "src/cryptokitBignum.ml" 57 1890 1913
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.mul "z.mli" 138 3898 3898 "z.mli" 138 3898 3950
+)
+"src/cryptokitBignum.ml" 57 1890 1914 "src/cryptokitBignum.ml" 57 1890 1915
+type(
+  Z.t
+)
+ident(
+  int_ref q "src/cryptokitBignum.ml" 51 1625 1647 "src/cryptokitBignum.ml" 51 1625 1648
+)
+"src/cryptokitBignum.ml" 57 1890 1916 "src/cryptokitBignum.ml" 57 1890 1931
+type(
+  Z.t
+)
+ident(
+  int_ref diff_qinv_mod_p "src/cryptokitBignum.ml" 56 1845 1851 "src/cryptokitBignum.ml" 56 1845 1866
+)
+"src/cryptokitBignum.ml" 57 1890 1909 "src/cryptokitBignum.ml" 57 1890 1932
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 57 1890 1933 "src/cryptokitBignum.ml" 57 1890 1935
+type(
+  Z.t
+)
+ident(
+  int_ref mq "src/cryptokitBignum.ml" 53 1711 1747 "src/cryptokitBignum.ml" 53 1711 1749
+)
+"src/cryptokitBignum.ml" 57 1890 1905 "src/cryptokitBignum.ml" 57 1890 1935
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 57 1890 1902 "src/cryptokitBignum.ml" 57 1890 1936
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 58 1940 1942 "src/cryptokitBignum.ml" 58 1940 1946
+type(
+  t -> unit
+)
+ident(
+  int_ref wipe "src/cryptokitBignum.ml" 18 967 967 "src/cryptokitBignum.ml" 18 967 1007
+)
+"src/cryptokitBignum.ml" 58 1940 1947 "src/cryptokitBignum.ml" 58 1940 1952
+type(
+  t
+)
+ident(
+  int_ref amodp "src/cryptokitBignum.ml" 52 1662 1668 "src/cryptokitBignum.ml" 52 1662 1673
+)
+"src/cryptokitBignum.ml" 58 1940 1942 "src/cryptokitBignum.ml" 58 1940 1952
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 58 1940 1954 "src/cryptokitBignum.ml" 58 1940 1958
+type(
+  t -> unit
+)
+ident(
+  int_ref wipe "src/cryptokitBignum.ml" 18 967 967 "src/cryptokitBignum.ml" 18 967 1007
+)
+"src/cryptokitBignum.ml" 58 1940 1959 "src/cryptokitBignum.ml" 58 1940 1964
+type(
+  t
+)
+ident(
+  int_ref amodq "src/cryptokitBignum.ml" 52 1662 1690 "src/cryptokitBignum.ml" 52 1662 1695
+)
+"src/cryptokitBignum.ml" 58 1940 1954 "src/cryptokitBignum.ml" 58 1940 1964
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 62 2124 2126 "src/cryptokitBignum.ml" 62 2124 2129
+type(
+  Z.t
+)
+ident(
+  int_ref res "src/cryptokitBignum.ml" 57 1890 1896 "src/cryptokitBignum.ml" 57 1890 1899
+)
+"src/cryptokitBignum.ml" 58 1940 1954 "src/cryptokitBignum.ml" 62 2124 2129
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 58 1940 1942 "src/cryptokitBignum.ml" 62 2124 2129
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 57 1890 1892 "src/cryptokitBignum.ml" 62 2124 2129
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 56 1845 1847 "src/cryptokitBignum.ml" 62 2124 2129
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 55 1808 1810 "src/cryptokitBignum.ml" 62 2124 2129
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 54 1776 1778 "src/cryptokitBignum.ml" 62 2124 2129
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 53 1711 1713 "src/cryptokitBignum.ml" 62 2124 2129
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 52 1662 1664 "src/cryptokitBignum.ml" 62 2124 2129
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 64 2131 2135 "src/cryptokitBignum.ml" 64 2131 2142
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def mod_inv "src/cryptokitBignum.ml" 66 2155 2155 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 64 2131 2145 "src/cryptokitBignum.ml" 64 2131 2153
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref Z.invert "z.mli" 452 14733 14733 "z.mli" 452 14733 14777
+)
+"src/cryptokitBignum.ml" 66 2155 2159 "src/cryptokitBignum.ml" 66 2155 2169
+type(
+  bytes -> unit
+)
+ident(
+  def wipe_bytes "src/cryptokitBignum.ml" 68 2216 2216 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 66 2155 2170 "src/cryptokitBignum.ml" 66 2155 2171
+type(
+  bytes
+)
+ident(
+  def s "src/cryptokitBignum.ml" 66 2155 2174 "src/cryptokitBignum.ml" 66 2155 2212
+)
+"src/cryptokitBignum.ml" 66 2155 2174 "src/cryptokitBignum.ml" 66 2155 2184
+type(
+  bytes -> int -> int -> char -> unit
+)
+ident(
+  int_ref Stdlib.Bytes.fill "bytes.mli" 114 4773 4773 "bytes.mli" 114 4773 4819
+)
+"src/cryptokitBignum.ml" 66 2155 2185 "src/cryptokitBignum.ml" 66 2155 2186
+type(
+  bytes
+)
+ident(
+  int_ref s "src/cryptokitBignum.ml" 66 2155 2170 "src/cryptokitBignum.ml" 66 2155 2171
+)
+"src/cryptokitBignum.ml" 66 2155 2187 "src/cryptokitBignum.ml" 66 2155 2188
+type(
+  int
+)
+"src/cryptokitBignum.ml" 66 2155 2190 "src/cryptokitBignum.ml" 66 2155 2202
+type(
+  bytes -> int
+)
+ident(
+  int_ref Stdlib.Bytes.length "bytes.mli" 45 2234 2234 "bytes.mli" 45 2234 2282
+)
+"src/cryptokitBignum.ml" 66 2155 2203 "src/cryptokitBignum.ml" 66 2155 2204
+type(
+  bytes
+)
+ident(
+  int_ref s "src/cryptokitBignum.ml" 66 2155 2170 "src/cryptokitBignum.ml" 66 2155 2171
+)
+"src/cryptokitBignum.ml" 66 2155 2189 "src/cryptokitBignum.ml" 66 2155 2205
+type(
+  int
+)
+"src/cryptokitBignum.ml" 66 2155 2206 "src/cryptokitBignum.ml" 66 2155 2212
+type(
+  char
+)
+"src/cryptokitBignum.ml" 66 2155 2174 "src/cryptokitBignum.ml" 66 2155 2212
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 68 2216 2220 "src/cryptokitBignum.ml" 68 2216 2228
+type(
+  string -> Z.t
+)
+ident(
+  def of_bytes "src/cryptokitBignum.ml" 76 2419 2419 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 68 2216 2229 "src/cryptokitBignum.ml" 68 2216 2230
+type(
+  string
+)
+ident(
+  def s "src/cryptokitBignum.ml" 69 2233 2235 "src/cryptokitBignum.ml" 74 2414 2417
+)
+"src/cryptokitBignum.ml" 69 2233 2239 "src/cryptokitBignum.ml" 69 2233 2240
+type(
+  int
+)
+ident(
+  def l "src/cryptokitBignum.ml" 70 2262 2264 "src/cryptokitBignum.ml" 74 2414 2417
+)
+"src/cryptokitBignum.ml" 69 2233 2243 "src/cryptokitBignum.ml" 69 2233 2256
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"src/cryptokitBignum.ml" 69 2233 2257 "src/cryptokitBignum.ml" 69 2233 2258
+type(
+  string
+)
+ident(
+  int_ref s "src/cryptokitBignum.ml" 68 2216 2229 "src/cryptokitBignum.ml" 68 2216 2230
+)
+"src/cryptokitBignum.ml" 69 2233 2243 "src/cryptokitBignum.ml" 69 2233 2258
+type(
+  int
+)
+"src/cryptokitBignum.ml" 70 2262 2268 "src/cryptokitBignum.ml" 70 2262 2269
+type(
+  bytes
+)
+ident(
+  def t "src/cryptokitBignum.ml" 71 2290 2292 "src/cryptokitBignum.ml" 74 2414 2417
+)
+"src/cryptokitBignum.ml" 70 2262 2272 "src/cryptokitBignum.ml" 70 2262 2284
+type(
+  int -> bytes
+)
+ident(
+  int_ref Stdlib.Bytes.create "bytes.mli" 59 2750 2750 "bytes.mli" 59 2750 2802
+)
+"src/cryptokitBignum.ml" 70 2262 2285 "src/cryptokitBignum.ml" 70 2262 2286
+type(
+  int
+)
+ident(
+  int_ref l "src/cryptokitBignum.ml" 69 2233 2239 "src/cryptokitBignum.ml" 69 2233 2240
+)
+"src/cryptokitBignum.ml" 70 2262 2272 "src/cryptokitBignum.ml" 70 2262 2286
+type(
+  bytes
+)
+"src/cryptokitBignum.ml" 71 2290 2300 "src/cryptokitBignum.ml" 71 2290 2301
+type(
+  int
+)
+"src/cryptokitBignum.ml" 71 2290 2305 "src/cryptokitBignum.ml" 71 2290 2306
+type(
+  int
+)
+ident(
+  int_ref l "src/cryptokitBignum.ml" 69 2233 2239 "src/cryptokitBignum.ml" 69 2233 2240
+)
+"src/cryptokitBignum.ml" 71 2290 2307 "src/cryptokitBignum.ml" 71 2290 2308
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"src/cryptokitBignum.ml" 71 2290 2309 "src/cryptokitBignum.ml" 71 2290 2310
+type(
+  int
+)
+"src/cryptokitBignum.ml" 71 2290 2305 "src/cryptokitBignum.ml" 71 2290 2310
+type(
+  int
+)
+"src/cryptokitBignum.ml" 71 2290 2314 "src/cryptokitBignum.ml" 71 2290 2323
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  int_ref Stdlib.Bytes.set "bytes.mli" 53 2531 2531 "bytes.mli" 53 2531 2594
+)
+"src/cryptokitBignum.ml" 71 2290 2324 "src/cryptokitBignum.ml" 71 2290 2325
+type(
+  bytes
+)
+ident(
+  int_ref t "src/cryptokitBignum.ml" 70 2262 2268 "src/cryptokitBignum.ml" 70 2262 2269
+)
+"src/cryptokitBignum.ml" 71 2290 2326 "src/cryptokitBignum.ml" 71 2290 2327
+type(
+  int
+)
+ident(
+  int_ref i "src/cryptokitBignum.ml" 71 2290 2292 "src/cryptokitBignum.ml" 71 2290 2346
+)
+"src/cryptokitBignum.ml" 71 2290 2328 "src/cryptokitBignum.ml" 71 2290 2329
+type(
+  string
+)
+ident(
+  int_ref s "src/cryptokitBignum.ml" 68 2216 2229 "src/cryptokitBignum.ml" 68 2216 2230
+)
+"src/cryptokitBignum.ml" 71 2290 2331 "src/cryptokitBignum.ml" 71 2290 2332
+type(
+  int
+)
+ident(
+  int_ref l "src/cryptokitBignum.ml" 69 2233 2239 "src/cryptokitBignum.ml" 69 2233 2240
+)
+"src/cryptokitBignum.ml" 71 2290 2333 "src/cryptokitBignum.ml" 71 2290 2334
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"src/cryptokitBignum.ml" 71 2290 2335 "src/cryptokitBignum.ml" 71 2290 2336
+type(
+  int
+)
+"src/cryptokitBignum.ml" 71 2290 2331 "src/cryptokitBignum.ml" 71 2290 2336
+type(
+  int
+)
+"src/cryptokitBignum.ml" 71 2290 2337 "src/cryptokitBignum.ml" 71 2290 2338
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"src/cryptokitBignum.ml" 71 2290 2339 "src/cryptokitBignum.ml" 71 2290 2340
+type(
+  int
+)
+ident(
+  int_ref i "src/cryptokitBignum.ml" 71 2290 2292 "src/cryptokitBignum.ml" 71 2290 2346
+)
+"src/cryptokitBignum.ml" 71 2290 2331 "src/cryptokitBignum.ml" 71 2290 2340
+type(
+  int
+)
+"src/cryptokitBignum.ml" 71 2290 2328 "src/cryptokitBignum.ml" 71 2290 2341
+type(
+  char
+)
+"src/cryptokitBignum.ml" 71 2290 2314 "src/cryptokitBignum.ml" 71 2290 2341
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 71 2290 2292 "src/cryptokitBignum.ml" 71 2290 2346
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 72 2348 2354 "src/cryptokitBignum.ml" 72 2348 2355
+type(
+  Z.t
+)
+ident(
+  def n "src/cryptokitBignum.ml" 73 2398 2400 "src/cryptokitBignum.ml" 74 2414 2417
+)
+"src/cryptokitBignum.ml" 72 2348 2358 "src/cryptokitBignum.ml" 72 2348 2367
+type(
+  string -> Z.t
+)
+ident(
+  int_ref Z.of_bits "z.mli" 542 18090 18090 "z.mli" 542 18090 18136
+)
+"src/cryptokitBignum.ml" 72 2348 2369 "src/cryptokitBignum.ml" 72 2348 2391
+type(
+  bytes -> string
+)
+ident(
+  int_ref Stdlib.Bytes.unsafe_to_string "bytes.mli" 332 13755 13755 "bytes.mli" 332 13755 13793
+)
+"src/cryptokitBignum.ml" 72 2348 2392 "src/cryptokitBignum.ml" 72 2348 2393
+type(
+  bytes
+)
+ident(
+  int_ref t "src/cryptokitBignum.ml" 70 2262 2268 "src/cryptokitBignum.ml" 70 2262 2269
+)
+"src/cryptokitBignum.ml" 72 2348 2368 "src/cryptokitBignum.ml" 72 2348 2394
+type(
+  string
+)
+"src/cryptokitBignum.ml" 72 2348 2358 "src/cryptokitBignum.ml" 72 2348 2394
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 73 2398 2400 "src/cryptokitBignum.ml" 73 2398 2410
+type(
+  bytes -> unit
+)
+ident(
+  int_ref wipe_bytes "src/cryptokitBignum.ml" 66 2155 2159 "src/cryptokitBignum.ml" 66 2155 2169
+)
+"src/cryptokitBignum.ml" 73 2398 2411 "src/cryptokitBignum.ml" 73 2398 2412
+type(
+  bytes
+)
+ident(
+  int_ref t "src/cryptokitBignum.ml" 70 2262 2268 "src/cryptokitBignum.ml" 70 2262 2269
+)
+"src/cryptokitBignum.ml" 73 2398 2400 "src/cryptokitBignum.ml" 73 2398 2412
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 74 2414 2416 "src/cryptokitBignum.ml" 74 2414 2417
+type(
+  Z.t
+)
+ident(
+  int_ref n "src/cryptokitBignum.ml" 72 2348 2354 "src/cryptokitBignum.ml" 72 2348 2355
+)
+"src/cryptokitBignum.ml" 73 2398 2400 "src/cryptokitBignum.ml" 74 2414 2417
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 72 2348 2350 "src/cryptokitBignum.ml" 74 2414 2417
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 71 2290 2292 "src/cryptokitBignum.ml" 74 2414 2417
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 70 2262 2264 "src/cryptokitBignum.ml" 74 2414 2417
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 69 2233 2235 "src/cryptokitBignum.ml" 74 2414 2417
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 76 2419 2423 "src/cryptokitBignum.ml" 76 2419 2431
+type(
+  ?numbits:int -> Z.t -> string
+)
+ident(
+  def to_bytes "src/cryptokitBignum.ml" 89 2776 2776 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 76 2419 2433 "src/cryptokitBignum.ml" 76 2419 2440
+type(
+  int option
+)
+ident(
+  def numbits "src/cryptokitBignum.ml" 76 2419 2441 "src/cryptokitBignum.ml" 87 2748 2774
+)
+"src/cryptokitBignum.ml" 76 2419 2441 "src/cryptokitBignum.ml" 76 2419 2442
+type(
+  Z.t
+)
+ident(
+  def n "src/cryptokitBignum.ml" 77 2445 2447 "src/cryptokitBignum.ml" 87 2748 2774
+)
+"src/cryptokitBignum.ml" 77 2445 2451 "src/cryptokitBignum.ml" 77 2445 2452
+type(
+  string
+)
+ident(
+  def s "src/cryptokitBignum.ml" 78 2470 2472 "src/cryptokitBignum.ml" 87 2748 2774
+)
+"src/cryptokitBignum.ml" 77 2445 2455 "src/cryptokitBignum.ml" 77 2445 2464
+type(
+  Z.t -> string
+)
+ident(
+  int_ref Z.to_bits "z.mli" 534 17759 17759 "z.mli" 534 17759 17805
+)
+"src/cryptokitBignum.ml" 77 2445 2465 "src/cryptokitBignum.ml" 77 2445 2466
+type(
+  Z.t
+)
+ident(
+  int_ref n "src/cryptokitBignum.ml" 76 2419 2441 "src/cryptokitBignum.ml" 76 2419 2442
+)
+"src/cryptokitBignum.ml" 77 2445 2455 "src/cryptokitBignum.ml" 77 2445 2466
+type(
+  string
+)
+"src/cryptokitBignum.ml" 78 2470 2476 "src/cryptokitBignum.ml" 78 2470 2477
+type(
+  int
+)
+ident(
+  def l "src/cryptokitBignum.ml" 82 2594 2596 "src/cryptokitBignum.ml" 87 2748 2774
+)
+"src/cryptokitBignum.ml" 79 2480 2490 "src/cryptokitBignum.ml" 79 2480 2497
+type(
+  int option
+)
+ident(
+  int_ref numbits "src/cryptokitBignum.ml" 76 2419 2433 "src/cryptokitBignum.ml" 76 2419 2440
+)
+"src/cryptokitBignum.ml" 80 2503 2509 "src/cryptokitBignum.ml" 80 2503 2513
+type(
+  int option
+)
+"src/cryptokitBignum.ml" 80 2503 2517 "src/cryptokitBignum.ml" 80 2503 2530
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"src/cryptokitBignum.ml" 80 2503 2531 "src/cryptokitBignum.ml" 80 2503 2532
+type(
+  string
+)
+ident(
+  int_ref s "src/cryptokitBignum.ml" 77 2445 2451 "src/cryptokitBignum.ml" 77 2445 2452
+)
+"src/cryptokitBignum.ml" 80 2503 2517 "src/cryptokitBignum.ml" 80 2503 2532
+type(
+  int
+)
+"src/cryptokitBignum.ml" 81 2533 2544 "src/cryptokitBignum.ml" 81 2533 2546
+type(
+  int
+)
+ident(
+  def nb "src/cryptokitBignum.ml" 81 2533 2550 "src/cryptokitBignum.ml" 81 2533 2590
+)
+"src/cryptokitBignum.ml" 81 2533 2539 "src/cryptokitBignum.ml" 81 2533 2546
+type(
+  int option
+)
+"src/cryptokitBignum.ml" 81 2533 2558 "src/cryptokitBignum.ml" 81 2533 2567
+type(
+  Z.t -> int
+)
+ident(
+  int_ref Z.numbits "z.mli" 236 7216 7216 "z.mli" 236 7216 7271
+)
+"src/cryptokitBignum.ml" 81 2533 2568 "src/cryptokitBignum.ml" 81 2533 2569
+type(
+  Z.t
+)
+ident(
+  int_ref n "src/cryptokitBignum.ml" 76 2419 2441 "src/cryptokitBignum.ml" 76 2419 2442
+)
+"src/cryptokitBignum.ml" 81 2533 2558 "src/cryptokitBignum.ml" 81 2533 2569
+type(
+  int
+)
+"src/cryptokitBignum.ml" 81 2533 2570 "src/cryptokitBignum.ml" 81 2533 2572
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <= ) "stdlib.mli" 145 6033 6033 "stdlib.mli" 145 6033 6082
+)
+"src/cryptokitBignum.ml" 81 2533 2573 "src/cryptokitBignum.ml" 81 2533 2575
+type(
+  int
+)
+ident(
+  int_ref nb "src/cryptokitBignum.ml" 81 2533 2544 "src/cryptokitBignum.ml" 81 2533 2546
+)
+"src/cryptokitBignum.ml" 81 2533 2557 "src/cryptokitBignum.ml" 81 2533 2576
+type(
+  bool
+)
+"src/cryptokitBignum.ml" 81 2533 2550 "src/cryptokitBignum.ml" 81 2533 2576
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 81 2533 2579 "src/cryptokitBignum.ml" 81 2533 2581
+type(
+  int
+)
+ident(
+  int_ref nb "src/cryptokitBignum.ml" 81 2533 2544 "src/cryptokitBignum.ml" 81 2533 2546
+)
+"src/cryptokitBignum.ml" 81 2533 2582 "src/cryptokitBignum.ml" 81 2533 2583
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 341 13435 13435 "stdlib.mli" 341 13435 13481
+)
+"src/cryptokitBignum.ml" 81 2533 2584 "src/cryptokitBignum.ml" 81 2533 2585
+type(
+  int
+)
+"src/cryptokitBignum.ml" 81 2533 2578 "src/cryptokitBignum.ml" 81 2533 2586
+type(
+  int
+)
+"src/cryptokitBignum.ml" 81 2533 2587 "src/cryptokitBignum.ml" 81 2533 2588
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( / ) "stdlib.mli" 356 13893 13893 "stdlib.mli" 356 13893 13939
+)
+"src/cryptokitBignum.ml" 81 2533 2589 "src/cryptokitBignum.ml" 81 2533 2590
+type(
+  int
+)
+"src/cryptokitBignum.ml" 81 2533 2578 "src/cryptokitBignum.ml" 81 2533 2590
+type(
+  int
+)
+"src/cryptokitBignum.ml" 81 2533 2550 "src/cryptokitBignum.ml" 81 2533 2590
+type(
+  int
+)
+"src/cryptokitBignum.ml" 79 2480 2484 "src/cryptokitBignum.ml" 81 2533 2590
+type(
+  int
+)
+"src/cryptokitBignum.ml" 82 2594 2600 "src/cryptokitBignum.ml" 82 2594 2601
+type(
+  bytes
+)
+ident(
+  def t "src/cryptokitBignum.ml" 83 2627 2629 "src/cryptokitBignum.ml" 87 2748 2774
+)
+"src/cryptokitBignum.ml" 82 2594 2604 "src/cryptokitBignum.ml" 82 2594 2614
+type(
+  int -> char -> bytes
+)
+ident(
+  int_ref Stdlib.Bytes.make "bytes.mli" 65 3005 3005 "bytes.mli" 65 3005 3036
+)
+"src/cryptokitBignum.ml" 82 2594 2615 "src/cryptokitBignum.ml" 82 2594 2616
+type(
+  int
+)
+ident(
+  int_ref l "src/cryptokitBignum.ml" 78 2470 2476 "src/cryptokitBignum.ml" 78 2470 2477
+)
+"src/cryptokitBignum.ml" 82 2594 2617 "src/cryptokitBignum.ml" 82 2594 2623
+type(
+  char
+)
+"src/cryptokitBignum.ml" 82 2594 2604 "src/cryptokitBignum.ml" 82 2594 2623
+type(
+  bytes
+)
+"src/cryptokitBignum.ml" 83 2627 2637 "src/cryptokitBignum.ml" 83 2627 2638
+type(
+  int
+)
+"src/cryptokitBignum.ml" 83 2627 2642 "src/cryptokitBignum.ml" 83 2627 2655
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"src/cryptokitBignum.ml" 83 2627 2656 "src/cryptokitBignum.ml" 83 2627 2657
+type(
+  string
+)
+ident(
+  int_ref s "src/cryptokitBignum.ml" 77 2445 2451 "src/cryptokitBignum.ml" 77 2445 2452
+)
+"src/cryptokitBignum.ml" 83 2627 2642 "src/cryptokitBignum.ml" 83 2627 2657
+type(
+  int
+)
+"src/cryptokitBignum.ml" 83 2627 2658 "src/cryptokitBignum.ml" 83 2627 2659
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"src/cryptokitBignum.ml" 83 2627 2660 "src/cryptokitBignum.ml" 83 2627 2661
+type(
+  int
+)
+"src/cryptokitBignum.ml" 83 2627 2642 "src/cryptokitBignum.ml" 83 2627 2661
+type(
+  int
+)
+"src/cryptokitBignum.ml" 84 2665 2669 "src/cryptokitBignum.ml" 84 2665 2678
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  int_ref Stdlib.Bytes.set "bytes.mli" 53 2531 2531 "bytes.mli" 53 2531 2594
+)
+"src/cryptokitBignum.ml" 84 2665 2679 "src/cryptokitBignum.ml" 84 2665 2680
+type(
+  bytes
+)
+ident(
+  int_ref t "src/cryptokitBignum.ml" 82 2594 2600 "src/cryptokitBignum.ml" 82 2594 2601
+)
+"src/cryptokitBignum.ml" 84 2665 2682 "src/cryptokitBignum.ml" 84 2665 2683
+type(
+  int
+)
+ident(
+  int_ref l "src/cryptokitBignum.ml" 78 2470 2476 "src/cryptokitBignum.ml" 78 2470 2477
+)
+"src/cryptokitBignum.ml" 84 2665 2684 "src/cryptokitBignum.ml" 84 2665 2685
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"src/cryptokitBignum.ml" 84 2665 2686 "src/cryptokitBignum.ml" 84 2665 2687
+type(
+  int
+)
+"src/cryptokitBignum.ml" 84 2665 2682 "src/cryptokitBignum.ml" 84 2665 2687
+type(
+  int
+)
+"src/cryptokitBignum.ml" 84 2665 2688 "src/cryptokitBignum.ml" 84 2665 2689
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"src/cryptokitBignum.ml" 84 2665 2690 "src/cryptokitBignum.ml" 84 2665 2691
+type(
+  int
+)
+ident(
+  int_ref i "src/cryptokitBignum.ml" 83 2627 2629 "src/cryptokitBignum.ml" 85 2699 2705
+)
+"src/cryptokitBignum.ml" 84 2665 2681 "src/cryptokitBignum.ml" 84 2665 2692
+type(
+  int
+)
+"src/cryptokitBignum.ml" 84 2665 2693 "src/cryptokitBignum.ml" 84 2665 2694
+type(
+  string
+)
+ident(
+  int_ref s "src/cryptokitBignum.ml" 77 2445 2451 "src/cryptokitBignum.ml" 77 2445 2452
+)
+"src/cryptokitBignum.ml" 84 2665 2696 "src/cryptokitBignum.ml" 84 2665 2697
+type(
+  int
+)
+ident(
+  int_ref i "src/cryptokitBignum.ml" 83 2627 2629 "src/cryptokitBignum.ml" 85 2699 2705
+)
+"src/cryptokitBignum.ml" 84 2665 2693 "src/cryptokitBignum.ml" 84 2665 2698
+type(
+  char
+)
+"src/cryptokitBignum.ml" 84 2665 2669 "src/cryptokitBignum.ml" 84 2665 2698
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 83 2627 2629 "src/cryptokitBignum.ml" 85 2699 2705
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 86 2707 2709 "src/cryptokitBignum.ml" 86 2707 2719
+type(
+  bytes -> unit
+)
+ident(
+  int_ref wipe_bytes "src/cryptokitBignum.ml" 66 2155 2159 "src/cryptokitBignum.ml" 66 2155 2169
+)
+"src/cryptokitBignum.ml" 86 2707 2721 "src/cryptokitBignum.ml" 86 2707 2743
+type(
+  string -> bytes
+)
+ident(
+  int_ref Stdlib.Bytes.unsafe_of_string "bytes.mli" 408 17018 17018 "bytes.mli" 408 17018 17056
+)
+"src/cryptokitBignum.ml" 86 2707 2744 "src/cryptokitBignum.ml" 86 2707 2745
+type(
+  string
+)
+ident(
+  int_ref s "src/cryptokitBignum.ml" 77 2445 2451 "src/cryptokitBignum.ml" 77 2445 2452
+)
+"src/cryptokitBignum.ml" 86 2707 2720 "src/cryptokitBignum.ml" 86 2707 2746
+type(
+  bytes
+)
+"src/cryptokitBignum.ml" 86 2707 2709 "src/cryptokitBignum.ml" 86 2707 2746
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 87 2748 2750 "src/cryptokitBignum.ml" 87 2748 2772
+type(
+  bytes -> string
+)
+ident(
+  int_ref Stdlib.Bytes.unsafe_to_string "bytes.mli" 332 13755 13755 "bytes.mli" 332 13755 13793
+)
+"src/cryptokitBignum.ml" 87 2748 2773 "src/cryptokitBignum.ml" 87 2748 2774
+type(
+  bytes
+)
+ident(
+  int_ref t "src/cryptokitBignum.ml" 82 2594 2600 "src/cryptokitBignum.ml" 82 2594 2601
+)
+"src/cryptokitBignum.ml" 87 2748 2750 "src/cryptokitBignum.ml" 87 2748 2774
+type(
+  string
+)
+"src/cryptokitBignum.ml" 86 2707 2709 "src/cryptokitBignum.ml" 87 2748 2774
+type(
+  string
+)
+"src/cryptokitBignum.ml" 83 2627 2629 "src/cryptokitBignum.ml" 87 2748 2774
+type(
+  string
+)
+"src/cryptokitBignum.ml" 82 2594 2596 "src/cryptokitBignum.ml" 87 2748 2774
+type(
+  string
+)
+"src/cryptokitBignum.ml" 78 2470 2472 "src/cryptokitBignum.ml" 87 2748 2774
+type(
+  string
+)
+"src/cryptokitBignum.ml" 77 2445 2447 "src/cryptokitBignum.ml" 87 2748 2774
+type(
+  string
+)
+"src/cryptokitBignum.ml" 89 2776 2780 "src/cryptokitBignum.ml" 89 2776 2791
+type(
+  bytes -> int -> (int -> int) -> unit
+)
+ident(
+  def change_byte "src/cryptokitBignum.ml" 92 2860 2860 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 89 2776 2792 "src/cryptokitBignum.ml" 89 2776 2793
+type(
+  bytes
+)
+ident(
+  def s "src/cryptokitBignum.ml" 89 2776 2794 "src/cryptokitBignum.ml" 90 2800 2858
+)
+"src/cryptokitBignum.ml" 89 2776 2794 "src/cryptokitBignum.ml" 89 2776 2795
+type(
+  int
+)
+ident(
+  def i "src/cryptokitBignum.ml" 89 2776 2796 "src/cryptokitBignum.ml" 90 2800 2858
+)
+"src/cryptokitBignum.ml" 89 2776 2796 "src/cryptokitBignum.ml" 89 2776 2797
+type(
+  int -> int
+)
+ident(
+  def f "src/cryptokitBignum.ml" 90 2800 2802 "src/cryptokitBignum.ml" 90 2800 2858
+)
+"src/cryptokitBignum.ml" 90 2800 2802 "src/cryptokitBignum.ml" 90 2800 2811
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  int_ref Stdlib.Bytes.set "bytes.mli" 53 2531 2531 "bytes.mli" 53 2531 2594
+)
+"src/cryptokitBignum.ml" 90 2800 2812 "src/cryptokitBignum.ml" 90 2800 2813
+type(
+  bytes
+)
+ident(
+  int_ref s "src/cryptokitBignum.ml" 89 2776 2792 "src/cryptokitBignum.ml" 89 2776 2793
+)
+"src/cryptokitBignum.ml" 90 2800 2814 "src/cryptokitBignum.ml" 90 2800 2815
+type(
+  int
+)
+ident(
+  int_ref i "src/cryptokitBignum.ml" 89 2776 2794 "src/cryptokitBignum.ml" 89 2776 2795
+)
+"src/cryptokitBignum.ml" 90 2800 2817 "src/cryptokitBignum.ml" 90 2800 2825
+type(
+  int -> char
+)
+ident(
+  int_ref Stdlib.Char.chr "char.mli" 21 1198 1198 "char.mli" 21 1198 1219
+)
+"src/cryptokitBignum.ml" 90 2800 2827 "src/cryptokitBignum.ml" 90 2800 2828
+type(
+  int -> int
+)
+ident(
+  int_ref f "src/cryptokitBignum.ml" 89 2776 2796 "src/cryptokitBignum.ml" 89 2776 2797
+)
+"src/cryptokitBignum.ml" 90 2800 2830 "src/cryptokitBignum.ml" 90 2800 2839
+type(
+  char -> int
+)
+ident(
+  int_ref Stdlib.Char.code "char.mli" 18 1109 1109 "char.mli" 18 1109 1150
+)
+"src/cryptokitBignum.ml" 90 2800 2841 "src/cryptokitBignum.ml" 90 2800 2850
+type(
+  bytes -> int -> char
+)
+ident(
+  int_ref Stdlib.Bytes.get "bytes.mli" 48 2344 2344 "bytes.mli" 48 2344 2399
+)
+"src/cryptokitBignum.ml" 90 2800 2851 "src/cryptokitBignum.ml" 90 2800 2852
+type(
+  bytes
+)
+ident(
+  int_ref s "src/cryptokitBignum.ml" 89 2776 2792 "src/cryptokitBignum.ml" 89 2776 2793
+)
+"src/cryptokitBignum.ml" 90 2800 2853 "src/cryptokitBignum.ml" 90 2800 2854
+type(
+  int
+)
+ident(
+  int_ref i "src/cryptokitBignum.ml" 89 2776 2794 "src/cryptokitBignum.ml" 89 2776 2795
+)
+"src/cryptokitBignum.ml" 90 2800 2840 "src/cryptokitBignum.ml" 90 2800 2855
+type(
+  char
+)
+"src/cryptokitBignum.ml" 90 2800 2829 "src/cryptokitBignum.ml" 90 2800 2856
+type(
+  int
+)
+"src/cryptokitBignum.ml" 90 2800 2826 "src/cryptokitBignum.ml" 90 2800 2857
+type(
+  int
+)
+"src/cryptokitBignum.ml" 90 2800 2816 "src/cryptokitBignum.ml" 90 2800 2858
+type(
+  char
+)
+"src/cryptokitBignum.ml" 90 2800 2802 "src/cryptokitBignum.ml" 90 2800 2858
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 92 2860 2864 "src/cryptokitBignum.ml" 92 2860 2870
+type(
+  rng:(bytes -> int -> int -> 'a) -> ?odd:bool -> int -> Z.t
+)
+ident(
+  def random "src/cryptokitBignum.ml" 110 3454 3454 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 92 2860 2872 "src/cryptokitBignum.ml" 92 2860 2875
+type(
+  bytes -> int -> int -> 'a
+)
+ident(
+  def rng "src/cryptokitBignum.ml" 92 2860 2876 "src/cryptokitBignum.ml" 108 3449 3452
+)
+"src/cryptokitBignum.ml" 92 2860 2878 "src/cryptokitBignum.ml" 92 2860 2881
+type(
+  bool
+)
+"src/cryptokitBignum.ml" 92 2860 2884 "src/cryptokitBignum.ml" 92 2860 2889
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/cryptokitBignum.ml" 92 2860 2891 "src/cryptokitBignum.ml" 92 2860 2898
+type(
+  int
+)
+ident(
+  def numbits "src/cryptokitBignum.ml" 93 2901 2903 "src/cryptokitBignum.ml" 108 3449 3452
+)
+"src/cryptokitBignum.ml" 93 2901 2907 "src/cryptokitBignum.ml" 93 2901 2915
+type(
+  int
+)
+ident(
+  def numbytes "src/cryptokitBignum.ml" 94 2939 2941 "src/cryptokitBignum.ml" 108 3449 3452
+)
+"src/cryptokitBignum.ml" 93 2901 2919 "src/cryptokitBignum.ml" 93 2901 2926
+type(
+  int
+)
+ident(
+  int_ref numbits "src/cryptokitBignum.ml" 92 2860 2891 "src/cryptokitBignum.ml" 92 2860 2898
+)
+"src/cryptokitBignum.ml" 93 2901 2927 "src/cryptokitBignum.ml" 93 2901 2928
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 341 13435 13435 "stdlib.mli" 341 13435 13481
+)
+"src/cryptokitBignum.ml" 93 2901 2929 "src/cryptokitBignum.ml" 93 2901 2930
+type(
+  int
+)
+"src/cryptokitBignum.ml" 93 2901 2918 "src/cryptokitBignum.ml" 93 2901 2931
+type(
+  int
+)
+"src/cryptokitBignum.ml" 93 2901 2932 "src/cryptokitBignum.ml" 93 2901 2933
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( / ) "stdlib.mli" 356 13893 13893 "stdlib.mli" 356 13893 13939
+)
+"src/cryptokitBignum.ml" 93 2901 2934 "src/cryptokitBignum.ml" 93 2901 2935
+type(
+  int
+)
+"src/cryptokitBignum.ml" 93 2901 2918 "src/cryptokitBignum.ml" 93 2901 2935
+type(
+  int
+)
+"src/cryptokitBignum.ml" 94 2939 2945 "src/cryptokitBignum.ml" 94 2939 2948
+type(
+  bytes
+)
+ident(
+  def buf "src/cryptokitBignum.ml" 95 2976 2978 "src/cryptokitBignum.ml" 108 3449 3452
+)
+"src/cryptokitBignum.ml" 94 2939 2951 "src/cryptokitBignum.ml" 94 2939 2963
+type(
+  int -> bytes
+)
+ident(
+  int_ref Stdlib.Bytes.create "bytes.mli" 59 2750 2750 "bytes.mli" 59 2750 2802
+)
+"src/cryptokitBignum.ml" 94 2939 2964 "src/cryptokitBignum.ml" 94 2939 2972
+type(
+  int
+)
+ident(
+  int_ref numbytes "src/cryptokitBignum.ml" 93 2901 2907 "src/cryptokitBignum.ml" 93 2901 2915
+)
+"src/cryptokitBignum.ml" 94 2939 2951 "src/cryptokitBignum.ml" 94 2939 2972
+type(
+  bytes
+)
+"src/cryptokitBignum.ml" 95 2976 2978 "src/cryptokitBignum.ml" 95 2976 2981
+type(
+  bytes -> int -> int -> 'a
+)
+ident(
+  int_ref rng "src/cryptokitBignum.ml" 92 2860 2872 "src/cryptokitBignum.ml" 92 2860 2875
+)
+"src/cryptokitBignum.ml" 95 2976 2982 "src/cryptokitBignum.ml" 95 2976 2985
+type(
+  bytes
+)
+ident(
+  int_ref buf "src/cryptokitBignum.ml" 94 2939 2945 "src/cryptokitBignum.ml" 94 2939 2948
+)
+"src/cryptokitBignum.ml" 95 2976 2986 "src/cryptokitBignum.ml" 95 2976 2987
+type(
+  int
+)
+"src/cryptokitBignum.ml" 95 2976 2988 "src/cryptokitBignum.ml" 95 2976 2996
+type(
+  int
+)
+ident(
+  int_ref numbytes "src/cryptokitBignum.ml" 93 2901 2907 "src/cryptokitBignum.ml" 93 2901 2915
+)
+"src/cryptokitBignum.ml" 95 2976 2978 "src/cryptokitBignum.ml" 95 2976 2996
+type(
+  'a
+)
+"src/cryptokitBignum.ml" 97 3035 3040 "src/cryptokitBignum.ml" 97 3035 3043
+type(
+  bool
+)
+ident(
+  int_ref odd "src/cryptokitBignum.ml" 92 2860 2878 "src/cryptokitBignum.ml" 92 2860 2881
+)
+"src/cryptokitBignum.ml" 98 3049 3053 "src/cryptokitBignum.ml" 98 3049 3064
+type(
+  bytes -> int -> (int -> int) -> unit
+)
+ident(
+  int_ref change_byte "src/cryptokitBignum.ml" 89 2776 2780 "src/cryptokitBignum.ml" 89 2776 2791
+)
+"src/cryptokitBignum.ml" 98 3049 3065 "src/cryptokitBignum.ml" 98 3049 3068
+type(
+  bytes
+)
+ident(
+  int_ref buf "src/cryptokitBignum.ml" 94 2939 2945 "src/cryptokitBignum.ml" 94 2939 2948
+)
+"src/cryptokitBignum.ml" 98 3049 3069 "src/cryptokitBignum.ml" 98 3049 3070
+type(
+  int
+)
+"src/cryptokitBignum.ml" 98 3049 3076 "src/cryptokitBignum.ml" 98 3049 3077
+type(
+  int
+)
+ident(
+  def b "src/cryptokitBignum.ml" 98 3049 3081 "src/cryptokitBignum.ml" 98 3049 3088
+)
+"src/cryptokitBignum.ml" 98 3049 3081 "src/cryptokitBignum.ml" 98 3049 3082
+type(
+  int
+)
+ident(
+  int_ref b "src/cryptokitBignum.ml" 98 3049 3076 "src/cryptokitBignum.ml" 98 3049 3077
+)
+"src/cryptokitBignum.ml" 98 3049 3083 "src/cryptokitBignum.ml" 98 3049 3086
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( lor ) "stdlib.mli" 395 15257 15257 "stdlib.mli" 395 15257 15304
+)
+"src/cryptokitBignum.ml" 98 3049 3087 "src/cryptokitBignum.ml" 98 3049 3088
+type(
+  int
+)
+"src/cryptokitBignum.ml" 98 3049 3081 "src/cryptokitBignum.ml" 98 3049 3088
+type(
+  int
+)
+"src/cryptokitBignum.ml" 98 3049 3071 "src/cryptokitBignum.ml" 98 3049 3089
+type(
+  int -> int
+)
+"src/cryptokitBignum.ml" 98 3049 3053 "src/cryptokitBignum.ml" 98 3049 3089
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 97 3035 3037 "src/cryptokitBignum.ml" 98 3049 3089
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 100 3159 3165 "src/cryptokitBignum.ml" 100 3159 3169
+type(
+  int
+)
+ident(
+  def mask "src/cryptokitBignum.ml" 101 3204 3206 "src/cryptokitBignum.ml" 108 3449 3452
+)
+"src/cryptokitBignum.ml" 100 3159 3172 "src/cryptokitBignum.ml" 100 3159 3173
+type(
+  int
+)
+"src/cryptokitBignum.ml" 100 3159 3174 "src/cryptokitBignum.ml" 100 3159 3177
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( lsl ) "stdlib.mli" 408 15629 15629 "stdlib.mli" 408 15629 15677
+)
+"src/cryptokitBignum.ml" 100 3159 3180 "src/cryptokitBignum.ml" 100 3159 3187
+type(
+  int
+)
+ident(
+  int_ref numbits "src/cryptokitBignum.ml" 92 2860 2891 "src/cryptokitBignum.ml" 92 2860 2898
+)
+"src/cryptokitBignum.ml" 100 3159 3188 "src/cryptokitBignum.ml" 100 3159 3189
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"src/cryptokitBignum.ml" 100 3159 3190 "src/cryptokitBignum.ml" 100 3159 3191
+type(
+  int
+)
+"src/cryptokitBignum.ml" 100 3159 3179 "src/cryptokitBignum.ml" 100 3159 3192
+type(
+  int
+)
+"src/cryptokitBignum.ml" 100 3159 3193 "src/cryptokitBignum.ml" 100 3159 3197
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( land ) "stdlib.mli" 390 15102 15102 "stdlib.mli" 390 15102 15151
+)
+"src/cryptokitBignum.ml" 100 3159 3198 "src/cryptokitBignum.ml" 100 3159 3199
+type(
+  int
+)
+"src/cryptokitBignum.ml" 100 3159 3178 "src/cryptokitBignum.ml" 100 3159 3200
+type(
+  int
+)
+"src/cryptokitBignum.ml" 100 3159 3172 "src/cryptokitBignum.ml" 100 3159 3200
+type(
+  int
+)
+"src/cryptokitBignum.ml" 101 3204 3206 "src/cryptokitBignum.ml" 101 3204 3217
+type(
+  bytes -> int -> (int -> int) -> unit
+)
+ident(
+  int_ref change_byte "src/cryptokitBignum.ml" 89 2776 2780 "src/cryptokitBignum.ml" 89 2776 2791
+)
+"src/cryptokitBignum.ml" 101 3204 3218 "src/cryptokitBignum.ml" 101 3204 3221
+type(
+  bytes
+)
+ident(
+  int_ref buf "src/cryptokitBignum.ml" 94 2939 2945 "src/cryptokitBignum.ml" 94 2939 2948
+)
+"src/cryptokitBignum.ml" 101 3204 3223 "src/cryptokitBignum.ml" 101 3204 3231
+type(
+  int
+)
+ident(
+  int_ref numbytes "src/cryptokitBignum.ml" 93 2901 2907 "src/cryptokitBignum.ml" 93 2901 2915
+)
+"src/cryptokitBignum.ml" 101 3204 3232 "src/cryptokitBignum.ml" 101 3204 3233
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"src/cryptokitBignum.ml" 101 3204 3234 "src/cryptokitBignum.ml" 101 3204 3235
+type(
+  int
+)
+"src/cryptokitBignum.ml" 101 3204 3222 "src/cryptokitBignum.ml" 101 3204 3236
+type(
+  int
+)
+"src/cryptokitBignum.ml" 102 3237 3246 "src/cryptokitBignum.ml" 102 3237 3247
+type(
+  int
+)
+ident(
+  def b "src/cryptokitBignum.ml" 102 3237 3251 "src/cryptokitBignum.ml" 102 3237 3279
+)
+"src/cryptokitBignum.ml" 102 3237 3252 "src/cryptokitBignum.ml" 102 3237 3253
+type(
+  int
+)
+ident(
+  int_ref b "src/cryptokitBignum.ml" 102 3237 3246 "src/cryptokitBignum.ml" 102 3237 3247
+)
+"src/cryptokitBignum.ml" 102 3237 3254 "src/cryptokitBignum.ml" 102 3237 3258
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( land ) "stdlib.mli" 390 15102 15102 "stdlib.mli" 390 15102 15151
+)
+"src/cryptokitBignum.ml" 102 3237 3260 "src/cryptokitBignum.ml" 102 3237 3264
+type(
+  int
+)
+ident(
+  int_ref mask "src/cryptokitBignum.ml" 100 3159 3165 "src/cryptokitBignum.ml" 100 3159 3169
+)
+"src/cryptokitBignum.ml" 102 3237 3265 "src/cryptokitBignum.ml" 102 3237 3266
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
+)
+"src/cryptokitBignum.ml" 102 3237 3267 "src/cryptokitBignum.ml" 102 3237 3268
+type(
+  int
+)
+"src/cryptokitBignum.ml" 102 3237 3259 "src/cryptokitBignum.ml" 102 3237 3269
+type(
+  int
+)
+"src/cryptokitBignum.ml" 102 3237 3251 "src/cryptokitBignum.ml" 102 3237 3270
+type(
+  int
+)
+"src/cryptokitBignum.ml" 102 3237 3271 "src/cryptokitBignum.ml" 102 3237 3274
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( lor ) "stdlib.mli" 395 15257 15257 "stdlib.mli" 395 15257 15304
+)
+"src/cryptokitBignum.ml" 102 3237 3275 "src/cryptokitBignum.ml" 102 3237 3279
+type(
+  int
+)
+ident(
+  int_ref mask "src/cryptokitBignum.ml" 100 3159 3165 "src/cryptokitBignum.ml" 100 3159 3169
+)
+"src/cryptokitBignum.ml" 102 3237 3251 "src/cryptokitBignum.ml" 102 3237 3279
+type(
+  int
+)
+"src/cryptokitBignum.ml" 102 3237 3241 "src/cryptokitBignum.ml" 102 3237 3280
+type(
+  int -> int
+)
+"src/cryptokitBignum.ml" 101 3204 3206 "src/cryptokitBignum.ml" 102 3237 3280
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 104 3310 3316 "src/cryptokitBignum.ml" 104 3310 3317
+type(
+  Z.t
+)
+ident(
+  def n "src/cryptokitBignum.ml" 105 3362 3364 "src/cryptokitBignum.ml" 108 3449 3452
+)
+"src/cryptokitBignum.ml" 104 3310 3320 "src/cryptokitBignum.ml" 104 3310 3329
+type(
+  string -> Z.t
+)
+ident(
+  int_ref Z.of_bits "z.mli" 542 18090 18090 "z.mli" 542 18090 18136
+)
+"src/cryptokitBignum.ml" 104 3310 3331 "src/cryptokitBignum.ml" 104 3310 3353
+type(
+  bytes -> string
+)
+ident(
+  int_ref Stdlib.Bytes.unsafe_to_string "bytes.mli" 332 13755 13755 "bytes.mli" 332 13755 13793
+)
+"src/cryptokitBignum.ml" 104 3310 3354 "src/cryptokitBignum.ml" 104 3310 3357
+type(
+  bytes
+)
+ident(
+  int_ref buf "src/cryptokitBignum.ml" 94 2939 2945 "src/cryptokitBignum.ml" 94 2939 2948
+)
+"src/cryptokitBignum.ml" 104 3310 3330 "src/cryptokitBignum.ml" 104 3310 3358
+type(
+  string
+)
+"src/cryptokitBignum.ml" 104 3310 3320 "src/cryptokitBignum.ml" 104 3310 3358
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 105 3362 3364 "src/cryptokitBignum.ml" 105 3362 3374
+type(
+  bytes -> unit
+)
+ident(
+  int_ref wipe_bytes "src/cryptokitBignum.ml" 66 2155 2159 "src/cryptokitBignum.ml" 66 2155 2169
+)
+"src/cryptokitBignum.ml" 105 3362 3375 "src/cryptokitBignum.ml" 105 3362 3378
+type(
+  bytes
+)
+ident(
+  int_ref buf "src/cryptokitBignum.ml" 94 2939 2945 "src/cryptokitBignum.ml" 94 2939 2948
+)
+"src/cryptokitBignum.ml" 105 3362 3364 "src/cryptokitBignum.ml" 105 3362 3378
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 106 3380 3390 "src/cryptokitBignum.ml" 106 3380 3399
+type(
+  Z.t -> int
+)
+ident(
+  int_ref Z.numbits "z.mli" 236 7216 7216 "z.mli" 236 7216 7271
+)
+"src/cryptokitBignum.ml" 106 3380 3400 "src/cryptokitBignum.ml" 106 3380 3401
+type(
+  Z.t
+)
+ident(
+  int_ref n "src/cryptokitBignum.ml" 104 3310 3316 "src/cryptokitBignum.ml" 104 3310 3317
+)
+"src/cryptokitBignum.ml" 106 3380 3390 "src/cryptokitBignum.ml" 106 3380 3401
+type(
+  int
+)
+"src/cryptokitBignum.ml" 106 3380 3402 "src/cryptokitBignum.ml" 106 3380 3403
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"src/cryptokitBignum.ml" 106 3380 3404 "src/cryptokitBignum.ml" 106 3380 3411
+type(
+  int
+)
+ident(
+  int_ref numbits "src/cryptokitBignum.ml" 92 2860 2891 "src/cryptokitBignum.ml" 92 2860 2898
+)
+"src/cryptokitBignum.ml" 106 3380 3389 "src/cryptokitBignum.ml" 106 3380 3412
+type(
+  bool
+)
+"src/cryptokitBignum.ml" 106 3380 3382 "src/cryptokitBignum.ml" 106 3380 3412
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 107 3414 3419 "src/cryptokitBignum.ml" 107 3414 3422
+type(
+  bool
+)
+ident(
+  int_ref odd "src/cryptokitBignum.ml" 92 2860 2878 "src/cryptokitBignum.ml" 92 2860 2881
+)
+"src/cryptokitBignum.ml" 107 3414 3436 "src/cryptokitBignum.ml" 107 3414 3444
+type(
+  Z.t -> bool
+)
+ident(
+  int_ref Z.is_odd "z.mli" 400 12764 12764 "z.mli" 400 12764 12785
+)
+"src/cryptokitBignum.ml" 107 3414 3445 "src/cryptokitBignum.ml" 107 3414 3446
+type(
+  Z.t
+)
+ident(
+  int_ref n "src/cryptokitBignum.ml" 104 3310 3316 "src/cryptokitBignum.ml" 104 3310 3317
+)
+"src/cryptokitBignum.ml" 107 3414 3435 "src/cryptokitBignum.ml" 107 3414 3447
+type(
+  bool
+)
+"src/cryptokitBignum.ml" 107 3414 3428 "src/cryptokitBignum.ml" 107 3414 3447
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 107 3414 3416 "src/cryptokitBignum.ml" 107 3414 3447
+type(
+  unit
+)
+"src/cryptokitBignum.ml" 108 3449 3451 "src/cryptokitBignum.ml" 108 3449 3452
+type(
+  Z.t
+)
+ident(
+  int_ref n "src/cryptokitBignum.ml" 104 3310 3316 "src/cryptokitBignum.ml" 104 3310 3317
+)
+"src/cryptokitBignum.ml" 107 3414 3416 "src/cryptokitBignum.ml" 108 3449 3452
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 106 3380 3382 "src/cryptokitBignum.ml" 108 3449 3452
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 105 3362 3364 "src/cryptokitBignum.ml" 108 3449 3452
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 104 3310 3312 "src/cryptokitBignum.ml" 108 3449 3452
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 101 3204 3206 "src/cryptokitBignum.ml" 108 3449 3452
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 100 3159 3161 "src/cryptokitBignum.ml" 108 3449 3452
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 97 3035 3037 "src/cryptokitBignum.ml" 108 3449 3452
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 95 2976 2978 "src/cryptokitBignum.ml" 108 3449 3452
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 94 2939 2941 "src/cryptokitBignum.ml" 108 3449 3452
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 93 2901 2903 "src/cryptokitBignum.ml" 108 3449 3452
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 110 3454 3462 "src/cryptokitBignum.ml" 110 3454 3474
+type(
+  rng:(bytes -> int -> int -> 'a) -> int -> Z.t
+)
+ident(
+  def random_prime "src/cryptokitBignum.ml" 110 3454 3454 "src/cryptokitBignum.ml" 0 0 -1
+)
+"src/cryptokitBignum.ml" 110 3454 3476 "src/cryptokitBignum.ml" 110 3454 3479
+type(
+  bytes -> int -> int -> 'a
+)
+ident(
+  def rng "src/cryptokitBignum.ml" 110 3454 3480 "src/cryptokitBignum.ml" 116 3677 3741
+)
+"src/cryptokitBignum.ml" 110 3454 3480 "src/cryptokitBignum.ml" 110 3454 3487
+type(
+  int
+)
+ident(
+  def numbits "src/cryptokitBignum.ml" 112 3525 3527 "src/cryptokitBignum.ml" 116 3677 3741
+)
+"src/cryptokitBignum.ml" 112 3525 3531 "src/cryptokitBignum.ml" 112 3525 3532
+type(
+  Z.t
+)
+ident(
+  def n "src/cryptokitBignum.ml" 114 3600 3602 "src/cryptokitBignum.ml" 116 3677 3741
+)
+"src/cryptokitBignum.ml" 112 3525 3535 "src/cryptokitBignum.ml" 112 3525 3541
+type(
+  rng:(bytes -> int -> int -> 'a) -> ?odd:bool -> int -> Z.t
+)
+ident(
+  int_ref random "src/cryptokitBignum.ml" 92 2860 2864 "src/cryptokitBignum.ml" 92 2860 2870
+)
+"src/cryptokitBignum.ml" 112 3525 3543 "src/cryptokitBignum.ml" 112 3525 3546
+type(
+  bytes -> int -> int -> 'a
+)
+ident(
+  int_ref rng "src/cryptokitBignum.ml" 110 3454 3476 "src/cryptokitBignum.ml" 110 3454 3479
+)
+"src/cryptokitBignum.ml" 112 3525 3552 "src/cryptokitBignum.ml" 112 3525 3556
+type(
+  bool
+)
+"src/cryptokitBignum.ml" 112 3525 3557 "src/cryptokitBignum.ml" 112 3525 3564
+type(
+  int
+)
+ident(
+  int_ref numbits "src/cryptokitBignum.ml" 110 3454 3480 "src/cryptokitBignum.ml" 110 3454 3487
+)
+"src/cryptokitBignum.ml" 112 3525 3535 "src/cryptokitBignum.ml" 112 3525 3564
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 114 3600 3606 "src/cryptokitBignum.ml" 114 3600 3607
+type(
+  Z.t
+)
+ident(
+  def p "src/cryptokitBignum.ml" 116 3677 3679 "src/cryptokitBignum.ml" 116 3677 3741
+)
+"src/cryptokitBignum.ml" 114 3600 3610 "src/cryptokitBignum.ml" 114 3600 3621
+type(
+  Z.t -> Z.t
+)
+ident(
+  int_ref Z.nextprime "z.mli" 464 15253 15253 "z.mli" 464 15253 15298
+)
+"src/cryptokitBignum.ml" 114 3600 3622 "src/cryptokitBignum.ml" 114 3600 3623
+type(
+  Z.t
+)
+ident(
+  int_ref n "src/cryptokitBignum.ml" 112 3525 3531 "src/cryptokitBignum.ml" 112 3525 3532
+)
+"src/cryptokitBignum.ml" 114 3600 3610 "src/cryptokitBignum.ml" 114 3600 3623
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 116 3677 3682 "src/cryptokitBignum.ml" 116 3677 3691
+type(
+  Z.t -> int
+)
+ident(
+  int_ref Z.numbits "z.mli" 236 7216 7216 "z.mli" 236 7216 7271
+)
+"src/cryptokitBignum.ml" 116 3677 3692 "src/cryptokitBignum.ml" 116 3677 3693
+type(
+  Z.t
+)
+ident(
+  int_ref p "src/cryptokitBignum.ml" 114 3600 3606 "src/cryptokitBignum.ml" 114 3600 3607
+)
+"src/cryptokitBignum.ml" 116 3677 3682 "src/cryptokitBignum.ml" 116 3677 3693
+type(
+  int
+)
+"src/cryptokitBignum.ml" 116 3677 3694 "src/cryptokitBignum.ml" 116 3677 3695
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"src/cryptokitBignum.ml" 116 3677 3696 "src/cryptokitBignum.ml" 116 3677 3703
+type(
+  int
+)
+ident(
+  int_ref numbits "src/cryptokitBignum.ml" 110 3454 3480 "src/cryptokitBignum.ml" 110 3454 3487
+)
+"src/cryptokitBignum.ml" 116 3677 3682 "src/cryptokitBignum.ml" 116 3677 3703
+type(
+  bool
+)
+"src/cryptokitBignum.ml" 116 3677 3709 "src/cryptokitBignum.ml" 116 3677 3710
+type(
+  Z.t
+)
+ident(
+  int_ref p "src/cryptokitBignum.ml" 114 3600 3606 "src/cryptokitBignum.ml" 114 3600 3607
+)
+"src/cryptokitBignum.ml" 116 3677 3716 "src/cryptokitBignum.ml" 116 3677 3728
+type(
+  rng:(bytes -> int -> int -> 'a) -> int -> Z.t
+)
+ident(
+  int_ref random_prime "src/cryptokitBignum.ml" 110 3454 3462 "src/cryptokitBignum.ml" 110 3454 3474
+)
+"src/cryptokitBignum.ml" 116 3677 3730 "src/cryptokitBignum.ml" 116 3677 3733
+type(
+  bytes -> int -> int -> 'a
+)
+ident(
+  int_ref rng "src/cryptokitBignum.ml" 110 3454 3476 "src/cryptokitBignum.ml" 110 3454 3479
+)
+"src/cryptokitBignum.ml" 116 3677 3734 "src/cryptokitBignum.ml" 116 3677 3741
+type(
+  int
+)
+ident(
+  int_ref numbits "src/cryptokitBignum.ml" 110 3454 3480 "src/cryptokitBignum.ml" 110 3454 3487
+)
+"src/cryptokitBignum.ml" 116 3677 3716 "src/cryptokitBignum.ml" 116 3677 3741
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 116 3677 3679 "src/cryptokitBignum.ml" 116 3677 3741
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 114 3600 3602 "src/cryptokitBignum.ml" 116 3677 3741
+type(
+  Z.t
+)
+"src/cryptokitBignum.ml" 112 3525 3527 "src/cryptokitBignum.ml" 116 3677 3741
+type(
+  Z.t
+)

@@ -1,0 +1,4 @@
+version="2.4"
+archive(byte)="xml-light.cma"
+archive(native)="xml-light.cmxa"
+archive(native,plugin)="xml-light.cmxs"

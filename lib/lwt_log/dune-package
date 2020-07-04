@@ -1,0 +1,37 @@
+(lang dune 2.6)
+(name lwt_log)
+(version 1.1.1)
+(library
+ (name lwt_log)
+ (kind normal)
+ (synopsis "Logger for Lwt (deprecated; use logs library)")
+ (archives (byte lwt_log.cma) (native lwt_log.cmxa))
+ (plugins (byte lwt_log.cma) (native lwt_log.cmxs))
+ (native_archives lwt_log.a)
+ (requires unix lwt lwt.unix lwt_log.core)
+ (modes byte native)
+ (modules
+  (unwrapped
+   ((name Lwt_daemon) (obj_name lwt_daemon) (visibility public) (impl) (intf))
+   ((name Lwt_log) (obj_name lwt_log) (visibility public) (impl) (intf)))))
+(library
+ (name lwt_log.core)
+ (kind normal)
+ (synopsis "Logger for Lwt (deprecated; pure-OCaml core)")
+ (archives (byte core/lwt_log_core.cma) (native core/lwt_log_core.cmxa))
+ (plugins (byte core/lwt_log_core.cma) (native core/lwt_log_core.cmxs))
+ (native_archives core/lwt_log_core.a)
+ (requires lwt)
+ (modes byte native)
+ (modules
+  (unwrapped
+   ((name Lwt_log_core)
+    (obj_name lwt_log_core)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Lwt_log_rules)
+    (obj_name lwt_log_rules)
+    (visibility public)
+    (impl)
+    (intf)))))

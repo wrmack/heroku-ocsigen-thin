@@ -1,0 +1,21 @@
+(lang dune 2.6)
+(name ssl)
+(version 0.5.9)
+(library
+ (name ssl)
+ (kind normal)
+ (archives (byte ssl.cma) (native ssl.cmxa))
+ (plugins (byte ssl.cma) (native ssl.cmxs))
+ (foreign_objects ssl_stubs.o)
+ (foreign_archives libssl_stubs.a)
+ (native_archives ssl.a)
+ (requires unix)
+ (modes byte native)
+ (modules
+  (unwrapped
+   ((name Ssl) (obj_name ssl) (visibility public) (impl) (intf))
+   ((name Ssl_threads)
+    (obj_name ssl_threads)
+    (visibility public)
+    (impl)
+    (intf)))))
