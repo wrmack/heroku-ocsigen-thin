@@ -4,7 +4,7 @@ This is a thinned down Dockerfile for deploying the Ocaml [ocsigenserver](https:
 
 It runs the bare ocsigenserver (not the eliom web framework).  Image size is 370MB.
 
-Thinning has been achieved by not installing Ocaml and just transferring binaries and library packages that are required by ocsigenserver.
+Thinning has been achieved by not installing Ocaml and just transferring binaries and library packages that are required by ocsigenserver.  (Ocsigen uses modules which are loaded dynamically at runtime.  The `.conf` file contains the modules to be used. Their packages, and dependencies, need to be available to findlib hence the need to copy the packages over.)
 
 ## To deploy to Heroku
 
@@ -46,7 +46,7 @@ docker run -it -d --name *your-container-name* -p 8080:8080 *your-image-name*
 - view on localhost:8080
 
 
-Live site [here](https://ocsi-thin-test.herokuapp.com).  I am using the free tier but with this thin version it only takes about 10 seconds for a sleeping dyno to load the page
+Live site [here](https://eliom-test.herokuapp.com).  I am using the free tier.  With this thin version it takes about 10 seconds for a sleeping dyno to load the page
 
 
 
