@@ -1,12 +1,16 @@
 # heroku-ocsigen-thin
 
-This is a thinned down Dockerfile for deploying the Ocaml [ocsigenserver](https://ocsigen.org) to Heroku as a Docker container.  
+This is a Dockerfile to build a thinned down image for deploying the Ocaml [ocsigenserver](https://ocsigen.org) to Heroku as a Docker container.  
 
 It runs the bare ocsigenserver (not the eliom web framework).  Image size is 370MB.
 
-Thinning has been achieved by not installing Ocaml and just transferring binaries and library packages that are required by ocsigenserver.  (Ocsigen uses modules which are loaded dynamically at runtime.  The `.conf` file contains the modules to be used. Their packages, and dependencies, need to be available to findlib hence the need to copy the packages over.)
+Thinning has been achieved by not installing Ocaml and, from the local filesystem, just transferring binaries and library packages that are required by ocsigenserver.  These files were built using a different image but same base.  (Ocsigen uses modules which are loaded dynamically at runtime.  The `.conf` file contains the modules to be used. Their packages, and dependencies, need to be available to findlib hence the need to copy the packages over.)
 
 ## To deploy to Heroku
+
+#### Edit entrypoint.sh if necessary
+Environment variables for PORT, USER and GROUP need to be set for the Heroku environment.
+The default version has these correct for Heroku
 
 #### Create a Heroku app
 ```
